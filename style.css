@@ -3,6 +3,16 @@ body {
   margin: 2rem;
 }
 
+#status {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+#status[role="alert"] {
+  color: #b00020;
+  font-weight: 600;
+}
+
 ul {
   list-style: none;
   padding: 0;
